@@ -2,7 +2,7 @@ package tracking.inventorymanagement;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import com.sprint1.dao.TrackOrderDaoImpl;
+import com.sprint1.dao.DisplayDetailsDaoImpl;
 import com.sprint1.model.ProductDetails;
 import com.sprint1.model.RawMaterialDetails;
 import com.sprint1.util.RawMaterialOrderNotFoundException;
@@ -10,7 +10,7 @@ import junit.framework.TestCase;
 public class TrackingTesting extends TestCase {
 	//private static final Object OrderId1 = null;
 	ProductDetails pd =new ProductDetails();
-	TrackOrderDaoImpl td = new TrackOrderDaoImpl();
+	DisplayDetailsDaoImpl td = new DisplayDetailsDaoImpl();
 	Map<String,ProductDetails> product =new HashMap<String, ProductDetails>();
 /*public void test() throws RawMaterialOrderNotFoundException {
 	assertEquals("Water",td.trackOrder("1"));

@@ -4,13 +4,13 @@ import com.sprint1.util.ProductOrderNotFoundException;
 import com.sprint1.util.RawMaterialOrderNotFoundException;
 import com.sprint1.model.ProductDetails;
 import com.sprint1.model.RawMaterialDetails;
-import com.sprint1.service.TrackOrderServiceImpl;
+import com.sprint1.service.DisplayDetailsServiceImpl;
 
 public class Main {
 
 static Scanner in=new Scanner(System.in);
 public static void main(String[] args) {
-TrackOrderServiceImpl trackOrderServiceImplObj=new TrackOrderServiceImpl();
+DisplayDetailsServiceImpl trackOrderServiceImplObj=new DisplayDetailsServiceImpl();
 //System.out.println("Enter Option \n 1:RawMaterial Tracking\n 2: Product Tracking ");
 //int option = in.nextInt();
 while(true) {

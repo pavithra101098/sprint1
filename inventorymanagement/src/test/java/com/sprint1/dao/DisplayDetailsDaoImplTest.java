@@ -2,7 +2,7 @@ package com.sprint1.dao;
 
 import junit.framework.TestCase;
 
-public class TrackOrderDaoImplTest extends TestCase {
+public class DisplayDetailsDaoImplTest extends TestCase {
 
 	public void testTrackProductOrder() {
 
